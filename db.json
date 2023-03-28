@@ -9,19 +9,19 @@
     {
       "id": 2,
       "name": "Tiger",
-      "image": "images/pexels-george-desipris-792381.jpg",
-      "votes": 2
+      "image": "images/pexels-george-desipris-2055100.jpg",
+      "votes": 3
     },
     {
       "id": 3,
       "name": "Lion",
-      "image":"images/pexels-public-domain-pictures-41315.jpg",
+      "image": "images/pexels-public-domain-pictures-41315.jpg",
       "votes": 0
     },
     {
       "id": 4,
-      "name": "Buffalo",
-      "image": "images/pexels-pixabay-46188.jpg",
+      "name": "Giraffe",
+      "image": "images/pexels-magda-ehlers-1319515.jpg",
       "votes": 1
     }
   ]

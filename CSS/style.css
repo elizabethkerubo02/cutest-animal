@@ -1,9 +1,9 @@
 #animals {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: stretch;
-    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
     height: fit-content;
   }
   .animal {
@@ -12,6 +12,78 @@
   .animal img {
     display: block;
     max-width: 90%;
-    height: auto;
+    height: 70%;
+  }
+  .animal button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .animal button.vote {
+    background-color: green;
+    color: #fff;
+  }
+  
+  .animal button.unvote {
+    background-color: blue;
+    color: #fff;
+  }
+  
+  .animal button.reset {
+    background-color: red;
+    color: #fff;
+  }
+
+  /* add animal section */
+  #add-animal {
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  #add-animal h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #add-animal label {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  #add-animal input[type="text"],
+  #add-animal input[type="url"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  #add-animal button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #008000; /* green color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #add-animal button[type="submit"]:hover {
+    background-color: #006400; /* darker green color */
   }
   
