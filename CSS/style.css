@@ -1,0 +1,17 @@
+#animals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 10px;
+    height: fit-content;
+  }
+  .animal {
+    flex: 1 1 200px;
+  }
+  .animal img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+  }
+  

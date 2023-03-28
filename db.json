@@ -1,0 +1,28 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "name": "Elephant",
+      "image": "images/pexels-rachel-claire-4577799.jpg",
+      "votes": 1
+    },
+    {
+      "id": 2,
+      "name": "Tiger",
+      "image": "images/pexels-george-desipris-792381.jpg",
+      "votes": 2
+    },
+    {
+      "id": 3,
+      "name": "Lion",
+      "image":"images/pexels-public-domain-pictures-41315.jpg",
+      "votes": 0
+    },
+    {
+      "id": 4,
+      "name": "Buffalo",
+      "image": "images/pexels-pixabay-46188.jpg",
+      "votes": 1
+    }
+  ]
+}
