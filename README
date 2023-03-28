@@ -1,0 +1,15 @@
+# Flatacuties App
+This app displays a list of cute animals and allows users to vote, unvote, or reset the vote count for each animal. Users can also add a new animal to the list.
+
+The app uses HTML, CSS, and JavaScript for the front-end and a simple JSON server as the back-end.
+
+# Getting Started
+To get started, clone the repository and run the following command to start the JSON server:
+
+json-server --watch db.json
+
+
+# Usage
+When the app loads, it will display a list of animals with their images and vote counts. To vote for an animal, click the "Vote" button. To unvote, click the "Unvote" button. To reset the vote count to zero, click the "Reset" button.
+
+To add a new animal, enter the name and image URL in the form provided and click the "Add" button.
