@@ -1,3 +1,8 @@
+h1{
+    text-align: center;
+    
+}
+
 #animals {
     display: flex;
     flex-wrap: wrap;
@@ -11,8 +16,9 @@
   }
   .animal img {
     display: block;
-    max-width: 90%;
-    height: 70%;
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
   }
   .animal button {
     padding: 5px 10px;
